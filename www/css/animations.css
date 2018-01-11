@@ -1,0 +1,54 @@
+p {
+  font-size: 20px;
+  transition: all 2s;
+}
+
+p:hover {
+  font-size: 40px;
+  color: red;
+  border: 1px solid black;
+}
+
+.redSquare {
+  display: block;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  animation-name: changeColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes changeColor {
+  25% {
+    background-color: blue;
+    left: 600px;
+    top: 50px;
+    height: 300px;
+    width: 50px;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: green;
+    left: 50px;
+    top: 400px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  75% {
+    background-color: black;
+    left: 600px;
+    top: 400px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  100% {
+  }
+}
+/*# sourceMappingURL=animations.css.map */

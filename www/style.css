@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid #524d4d;
+    background-color: #d6cccc;
+    margin-bottom: 5px;
+}
+
+.dev {
+    display: none;
+}

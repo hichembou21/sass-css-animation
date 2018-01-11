@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,CAAC,EASD,AATA,OASO,CATL;EACE,KAAK,EAJD,IAAI;EAKR,MAAM,EAJC,GAAG,CAAC,KAAK,CAAC,KAAK;CAQzB;;AAND,AAGI,CAHH,CAGG,IAAI,EAMR,AANI,OAMG,CANH,IAAI,CAAC;EACD,KAAK,EAAE,GAAG;CACb;;AAIL,AAAA,OAAO,CAAC;EAEJ,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "premier.scss"
+    ],
+    "names": [],
+    "file": "premier.css"
+}

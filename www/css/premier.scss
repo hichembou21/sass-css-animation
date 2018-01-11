@@ -1,0 +1,17 @@
+
+$maVar: blue;
+$monCadre: 1px solid black;
+
+p {
+    color: $maVar;
+    border: $monCadre;
+    span {
+        color: red;
+    }
+}
+
+// on peut herité des propriété 
+section {
+    @extend p;
+    font-size: 100px;
+}
